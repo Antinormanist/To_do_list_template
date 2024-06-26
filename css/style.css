@@ -163,6 +163,7 @@ header img {
 
 .task h3 {
     margin: 0;
+    padding-bottom: 5px;
     text-align: center;
     background-color:gainsboro;
     border: 2px solid black;
