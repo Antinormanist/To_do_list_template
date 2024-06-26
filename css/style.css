@@ -90,6 +90,13 @@ header img {
     grid-template-rows: 75% 25%;
 }
 
+.choose-priority {
+    grid-column-start: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .write-task {
     grid-column-start: 2;
     display: flex;
