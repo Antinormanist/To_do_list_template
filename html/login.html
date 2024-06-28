@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/user_general.css">
     <title>Login</title>
 </head>
 <body>
-    
+    <header>
+        <img src="../icons/LogoAntinormanist.png" alt="Logo">
+        <a href="./login.html" class="header-item login">Login</a>
+        <a href="./register.html" class="header-item register">Register</a>
+        <a href="#" class="header-item logout">Logout</a>
+    </header>
+    <div class="container">
+        <form action="" class="container-form">
+            <label for="user-name" class="label-1">Your name</label>
+            <input type="text" name="user-name" id="user-name">
+            <label for="user-password" class="label-2">Your password</label>
+            <input type="password" name="user-password" id="user-password">
+            <button type="sumbit">Login</button>
+        </form>
+        <hr>
+        <a href="./register.html">Don't have an account</a>
+    </div>
 </body>
 </html>
